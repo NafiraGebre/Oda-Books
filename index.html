@@ -1,0 +1,484 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from oda-books.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jul 2023 06:33:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>Author</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/author.css" rel="stylesheet">
+<link href="css/wb17_author.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.ui.effect.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/util.min.js"></script>
+<script src="js/collapse.min.js"></script>
+<script src="js/dropdown.min.js"></script>
+<script src="js/wb.panel.min.js"></script>
+<script src="js/wwb17.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#intro']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_intro').offset().top-88 }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#storesCards']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#storesCards').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#about']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_about').offset().top-88 }, 600, 'easeOutExpo');
+   });
+   function onScrollabout()
+   {
+      var $obj = $("#wb_about");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollabout();
+   $(window).scroll(function(event)
+   {
+      onScrollabout();
+   });
+   $("a[href*='#booksLayoutGrid1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_booksLayoutGrid1').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#booksLayoutGrid2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_booksLayoutGrid2').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#LayoutGrid1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#reviewsLayoutGrid']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_reviewsLayoutGrid').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutExpo');
+   });
+   $('#headerMenu .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.headerMenu-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+   $("#headerPanelMenu").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true});
+   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+   if (iOS)
+   {
+      $('#wb_contact').css('background-attachment', 'scroll');
+   }
+});
+</script>
+</head>
+<body>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerPanelMenu" style="display:inline-block;width:67px;height:40px;z-index:0;">
+<a href="#headerPanelMenu_markup" id="headerPanelMenu">&nbsp;</a>
+<div id="headerPanelMenu_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="#intro" class="nav-link">Home</a></li>
+   <li role="menuitem"><a href="#about" class="nav-link">About</a></li>
+   <li role="menuitem"><a href="#" class="nav-link">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+   <li role="menuitem"><a href="#" class="nav-link">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+   <li role="menuitem"><a href="#" class="nav-link">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </a></li>
+   <li role="menuitem"><a href="#" class="nav-link">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+</ul>
+</div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerMenu" style="display:inline-block;width:100%;z-index:1;">
+<div id="headerMenu" class="headerMenu" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="Hamburger Menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".headerMenu-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="headerMenu-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="#intro" class="nav-link">Home</a>
+</li>
+<li class="nav-item">
+<a href="#about" class="nav-link">About</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">           </a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">           </a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">                              </a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">                             </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_intro">
+<div id="intro">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_introHeading" style="display:inline-block;width:100%;z-index:2;">
+<h2 id="introHeading">ODA-STUDENTS-SHELF<br><br></h2>
+</div>
+<div id="wb_introText">
+<p style="font-size:13px;">ODA.STUDENTS-SHELF is created to make easy for our students and teachers to communicate without face to face.This website will make easy for our teachers to upload their shortnotes,so students can download from the website.The other advantage of it is that students can easily download whenever they want independently as they don't need to share it from other person.</p>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_introImage" style="display:inline-block;width:100%;height:auto;z-index:4;">
+<img src="images/glasses-1052010_1920.jpg" id="introImage" alt="" width="447" height="335">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_stores">
+<div id="stores">
+<div class="row">
+<div class="col-1">
+<div id="wb_storesHeading" style="display:inline-block;width:100%;z-index:5;">
+<h2 id="storesHeading">Our Book Library Is Special Because:</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_storesCards">
+<div id="storesCards">
+<div id="wb_storesCard1" style="display:flex;text-align:center;z-index:6;" class="card">
+   <div id="storesCard1-card-body">
+      <div id="storesCard1-card-item0"><i class="fa fa-graduation-cap"></i></div>
+      <div id="storesCard1-card-item1">Written by special teachers</div>
+      <div id="storesCard1-card-item2">All of our teachers are masters educated and they have big experience on teaching for so many years.<br><br></div>
+   </div>
+</div>
+<div id="wb_storesCard2" style="display:flex;text-align:center;z-index:7;" class="card">
+   <div id="storesCard2-card-body">
+      <div id="storesCard2-card-item0"><i class="fa fa-star"></i></div>
+      <div id="storesCard2-card-item1">Supported graphically and by examples</div>
+      <div id="storesCard2-card-item2">In the website you can see that it is supported with so many examples and have great graphical expression in it.<br> </div>
+   </div>
+</div>
+<div id="wb_storesCard3" style="display:flex;text-align:center;z-index:8;" class="card">
+   <div id="storesCard3-card-body">
+      <div id="storesCard3-card-item0"><i class="fa fa-check"></i></div>
+      <div id="storesCard3-card-item1">Supported by different college books</div>
+      <div id="storesCard3-card-item2">The book is written from different sources mostly enriching student textbooks from college books which make them reliable and reliviant.</div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_about">
+<div id="about">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_aboutImage" style="display:inline-block;width:100%;height:auto;z-index:9;">
+<img src="images/pyramids-2371501_1920.jpg" id="aboutImage" alt="" width="447" height="291">
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_aboutHeading" style="display:inline-block;width:100%;z-index:10;">
+<h2 id="aboutHeading">About this selection</h2>
+</div>
+<div id="wb_aboutText">
+<p style="font-size:13px;">History is the study and the documentation of the past. Events before the invention of writing systems are considered prehistory. "History" is an umbrella term comprising past events as well as the memory, discovery, collection, organization, presentation, and interpretation of these events. Historians seek knowledge of the past using historical sources such as written documents, oral accounts, art and material artifacts, and ecological markers... </p>
+</div>
+<a id="aboutButton" href="History%202nd%20semister%2010-1_2.pdf" style="display:inline-block;width:166px;height:51px;z-index:12;">Download the book</a>
+<hr id="aboutLine" style="display:block;width: 100%;z-index:13;">
+<div id="wb_aboutAvatar" style="display:inline-block;width:85px;height:85px;z-index:14;">
+<img src="images/nafira.jpg" id="aboutAvatar" alt="" width="85" height="85">
+</div>
+<div id="wb_aboutName">
+<p style="font-size:13px;"><span style="font-weight:bold;">Designed by: Nafira Gebre</span><br/>ODA-SBS Student</p>
+<p style="font-size:13px;">email:- nafigebre@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_booksLayoutGrid1">
+<div id="booksLayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_booksCard1" style="display:flex;width:100%;text-align:center;z-index:16;" class="card">
+   <div id="booksCard1-card-body">
+      <img id="booksCard1-card-item0" src="images/afaan.png" width="600" height="400" alt="Bestseller #1" title="Bestseller #1">
+      <div id="booksCard1-card-item1">Afaan Oromoo</div>
+      <hr id="booksCard1-card-item2">
+      <div id="booksCard1-card-item3">Oromo has the largest number of native speakers in Ethiopia.It is also spoken by smaller numbers of emigrants in other African countries such as South Africa, Libya, Egypt and Sudan.</div>
+   </div>
+      <div id="booksCard1-card-item4"><a href="Hirphaa%20Afaan%20Oromoo.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_booksCard2" style="display:flex;width:100%;text-align:center;z-index:17;" class="card">
+   <div id="booksCard2-card-body">
+      <img id="booksCard2-card-item0" src="images/PHY.png" width="600" height="400" alt="Bestseller #2" title="Bestseller #2">
+      <div id="booksCard2-card-item1">Physics</div>
+      <hr id="booksCard2-card-item2">
+      <div id="booksCard2-card-item3">Physics is the natural science that studies matter,[a] its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.</div>
+   </div>
+      <div id="booksCard2-card-item4"><a href="G10_PHY_U4_CURRENT%20ELECTRICITY.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_booksCard3" style="display:flex;width:100%;text-align:center;z-index:18;" class="card">
+   <div id="booksCard3-card-body">
+      <img id="booksCard3-card-item0" src="images/ENG.png" width="600" height="400" alt="Bestseller #3" title="Bestseller #3">
+      <div id="booksCard3-card-item1">English</div>
+      <hr id="booksCard3-card-item2">
+      <div id="booksCard3-card-item3">English is the most spoken language in the world (if Chinese is divided into variants) and the third-most spoken native language in the world.</div>
+   </div>
+      <div id="booksCard3-card-item4"><a href="ODA%20SBS%20G-10%20%20STUDY%20GUIDE%20TO%20ENGLISH%20TEXTBOOK%20.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_booksLayoutGrid2">
+<div id="booksLayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_booksCard4" style="display:flex;width:100%;text-align:center;z-index:19;" class="card">
+   <div id="booksCard4-card-body">
+      <img id="booksCard4-card-item0" src="images/GEO.png" width="600" height="400" alt="Bestseller #4" title="Bestseller #4">
+      <div id="booksCard4-card-item1">Geography</div>
+      <hr id="booksCard4-card-item2">
+      <div id="booksCard4-card-item3">Geography (from Greek: γεωγραφία, geographia, literally "earth description") is a field of science devoted to the study of the lands, features, inhabitants, and phenomena of the Earth and planets.</div>
+   </div>
+      <div id="booksCard4-card-item4"><a href="geo%20cdr-1.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_booksCard5" style="display:flex;width:100%;text-align:center;z-index:20;" class="card">
+   <div id="booksCard5-card-body">
+      <img id="booksCard5-card-item0" src="images/amh.png" width="600" height="400" alt="Bestseller #5" title="Bestseller #5">
+      <div id="booksCard5-card-item1">Amharic</div>
+      <hr id="booksCard5-card-item2">
+      <div id="booksCard5-card-item3">Amharic is an Ethiopian Semitic language, which is a subgrouping within the Semitic branch of the Afroasiatic languages.</div>
+   </div>
+      <div id="booksCard5-card-item4"><a href="Amarigna%20Note%20.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_booksCard6" style="display:flex;width:100%;text-align:center;z-index:21;" class="card">
+   <div id="booksCard6-card-body">
+      <img id="booksCard6-card-item0" src="images/MATH.png" width="600" height="400" alt="Bestseller #6" title="Bestseller #6">
+      <div id="booksCard6-card-item1">Mathematics</div>
+      <hr id="booksCard6-card-item2">
+      <div id="booksCard6-card-item3">Mathematics (from Ancient Greek μάθημα; máthēma: 'knowledge, study, learning') is an area of knowledge that includes such topics as numbers (arithmetic, number theory), formulas and related structures (algebra), shapes and the spaces in which they are contained (geometry),and quantities and their changes (calculus and analysis).</div>
+   </div>
+      <div id="booksCard6-card-item4"><a href="Mathematics%20G-10%20module%202012.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_booksCard7" style="display:flex;width:100%;text-align:center;z-index:22;" class="card">
+   <div id="booksCard7-card-body">
+      <img id="booksCard7-card-item0" src="images/ict.png" width="600" height="400" alt="Bestseller #7" title="Bestseller #7">
+      <div id="booksCard7-card-item1">ICT</div>
+      <hr id="booksCard7-card-item2">
+      <div id="booksCard7-card-item3">ICT is used to refer to the convergence of audiovisual and telephone networks with computer networks through a single cabling or link system.</div>
+   </div>
+      <div id="booksCard7-card-item4"><a href="Using%20internet%20(1).pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_booksCard8" style="display:flex;width:100%;text-align:center;z-index:23;" class="card">
+   <div id="booksCard8-card-body">
+      <img id="booksCard8-card-item0" src="images/HIST.png" width="600" height="400" alt="Bestseller #8" title="Bestseller #8">
+      <div id="booksCard8-card-item1">History</div>
+      <hr id="booksCard8-card-item2">
+      <div id="booksCard8-card-item3">History is the study and the documentation of the past. Events before the invention of writing systems are considered prehistory. </div>
+   </div>
+      <div id="booksCard8-card-item4"><a href="History%202nd%20semister%2010-1_2.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_booksCard9" style="display:flex;width:100%;text-align:center;z-index:24;" class="card">
+   <div id="booksCard9-card-body">
+      <img id="booksCard9-card-item0" src="images/CHEM.png" width="600" height="400" alt="Bestseller #9" title="Bestseller #9">
+      <div id="booksCard9-card-item1">Chemistry</div>
+      <hr id="booksCard9-card-item2">
+      <div id="booksCard9-card-item3">Chemistry is the scientific study of the properties and behavior of matter.It is a natural science that covers the elements that make up matter to the compounds composed of atoms, molecules and ions.</div>
+   </div>
+      <div id="booksCard9-card-item4"><a href="Chemistry%20G-10%20short%20notes%202012%20pdf.pdf" class="stretched-link">Read</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_reviewsLayoutGrid">
+<div id="reviewsLayoutGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_reviewsHeading" style="display:inline-block;width:100%;z-index:25;">
+<h2 id="reviewsHeading">What Readers Say About Our Books</h2>
+</div>
+<div id="wb_reviewsText">
+<p style="font-size:13px;">Our readers were very happy with what we and also they think it can get even a better place than it is in now.</p>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_reviewsCard1" style="display:flex;width:100%;z-index:27;" class="card">
+   <div id="reviewsCard1-card-body">
+      <div id="reviewsCard1-card-item0">“</div>
+      <div id="reviewsCard1-card-item1">"I really enjoyed using the website simple way to access the books."</div>
+      <hr id="reviewsCard1-card-item2">
+      <div id="reviewsCard1-card-item3">Wondesen Zenebe</div>
+   </div>
+</div>
+<div id="wb_reviewsCard2" style="display:flex;width:100%;z-index:28;" class="card">
+   <div id="reviewsCard2-card-body">
+      <div id="reviewsCard2-card-item0">“</div>
+      <div id="reviewsCard2-card-item1">"The books are unmatched you can't get such quality in one place it is absolutely outstanding."</div>
+      <hr id="reviewsCard2-card-item2">
+      <div id="reviewsCard2-card-item3">Yonas Legese</div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_reviewsCard3" style="display:flex;width:100%;z-index:29;" class="card">
+   <div id="reviewsCard3-card-body">
+      <div id="reviewsCard3-card-item0">“</div>
+      <div id="reviewsCard3-card-item1">"From the quality of the books to the website I really liked it."</div>
+      <hr id="reviewsCard3-card-item2">
+      <div id="reviewsCard3-card-item3">Kumela Adugna</div>
+   </div>
+</div>
+<div id="wb_reviewsCard4" style="display:flex;width:100%;z-index:30;" class="card">
+   <div id="reviewsCard4-card-body">
+      <div id="reviewsCard4-card-item0">“</div>
+      <div id="reviewsCard4-card-item1">"This has actually overcome the problem we were facing it is a great way to get the books and I also recommend others to try it out."</div>
+      <hr id="reviewsCard4-card-item2">
+      <div id="reviewsCard4-card-item3">Yosan Girma</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:51;">
+<div id="wb_upIcon" style="position:absolute;left:9px;top:9px;width:24px;height:24px;text-align:center;z-index:31;">
+<a href="#intro"><div id="upIcon"><i class="fa fa-arrow-up"></i></div></a></div>
+</div>
+<div id="wb_contact">
+<div id="contact-overlay"></div>
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div id="wb_contactHeading1" style="display:inline-block;width:100%;z-index:32;">
+<h1 id="contactHeading1"><a href="https://onetreeplanted.org/" target="_blank">oda-sbs-students shelf</a></h1>
+</div>
+<div id="wb_contactDescription">
+<p style="font-size:13px;line-height:16px;"><br/>ODA.STUDENTS-SHELF is created to make easy for our students and teachers to communicate without face to face.</p>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_contactHeading2" style="display:inline-block;width:100%;z-index:34;">
+<h3 id="contactHeading2">Navigation</h3>
+</div>
+<div id="wb_contactMenu" style="display:inline-block;width:100%;z-index:35;">
+<ul id="contactMenu" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="#intro" target="_self">Home</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="#about" target="_self">About</a>
+</li>
+</ul>
+
+</div>
+<div id="wb_Text2">
+</div>
+</div>
+<div class="col-3">
+<div id="wb_contactHeading4" style="display:inline-block;width:100%;z-index:37;">
+<h3 id="contactHeading4">Social Media</h3>
+</div>
+<div id="wb_contactIcon4" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:38;">
+<div id="wb_contactIcon3" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:39;">
+<a href="https://twitter.com/nafgeb"><div id="contactIcon3"><i class="fa fa-twitter"></i></div></a>
+</div>
+<div id="wb_contactIcon2" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:40;">
+<a href="https://www.facebook.com/nafi.gebre"><div id="contactIcon2"><i class="fa fa-facebook"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_footerLayoutGrid">
+<div id="footerLayoutGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_footerText2">
+<span style="color:#FFFFFF;font-family:Arial;font-size:29px;">Made by Nafira Gebre</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="stickylayerCart" style="position:fixed;text-align:left;left:auto;right:20px;top:65px;width:63px;height:88px;z-index:54;z-index: 9999 !important;">
+</div>
+</body>
+
+</html>
